@@ -12,3 +12,8 @@ https://help.github.com/articles/github-flavored-markdown
 
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
+###Backup
+http://addyosmani.com/blog/backing-up-a-github-account/
+
+https://github.com/joeyh/github-backup
+
