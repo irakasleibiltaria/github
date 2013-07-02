@@ -1,5 +1,5 @@
 ###GitHub Pages
-irakasleibiltaria.github.io
+http://irakasleibiltaria.github.io
 
 [GitHub Pages](https://help.github.com/categories/20/articles). 
 
