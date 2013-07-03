@@ -37,8 +37,8 @@ Other option: https://rawgithub.com/
 ###GitHub API
 http://developer.github.com/v3/
 ```bash
-// List public repositories for the specified user.
-// GET /users/:user/repos
+# List public repositories for the specified user.
+# GET /users/:user/repos
 
 $ curl -i https://api.github.com/users/irakasleibiltaria/repos
 ```
