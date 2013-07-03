@@ -31,7 +31,7 @@ $ git remote update
 go to the file you want to dowload and push the **view raw button** <> and copy the URL and use **curl** to download
 it.
 ```bash
-$ https://raw.github.com/irakasleibiltaria/startup-engineering/master/README.md
+$ curl https://raw.github.com/irakasleibiltaria/startup-engineering/master/README.md
 ```
 from gists:
 ```bash
