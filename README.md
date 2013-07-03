@@ -17,6 +17,16 @@ http://addyosmani.com/blog/backing-up-a-github-account/
 
 https://github.com/joeyh/github-backup
 
+http://stackoverflow.com/questions/1251713/backup-of-github-repo
+
+```bash
+To create the mirror:
+$ git clone --mirror git://github.com/user/project.git
+To update:
+$cd project.git
+$git remote update
+```
+
 ###download files from GitHub
 go to the file you want to dowload and push the **view raw button** <> and copy the URL and use **curl** to download
 it.
