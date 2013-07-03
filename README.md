@@ -45,11 +45,17 @@ $ curl -i https://api.github.com/users/irakasleibiltaria/repos
 The response is a Json file. To obtain only repositories names:
 
 ```js
-// install jQuery for node: 
-// $ npm install jquery
-// then
-// execute de below code: $ node repos.js
+/* 
+install jQuery for node: 
+$ npm install jquery
+then
+execute de below code: $ node repos.js
 
+more information:
+http://developer.github.com/v3/
+http://api.jquery.com/jQuery.getJSON/
+https://npmjs.org/package/jquery
+*/
 var $ = require('jquery');
 
 $.getJSON('https://api.github.com/users/irakasleibiltaria/repos',function(data) {
