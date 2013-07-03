@@ -23,8 +23,8 @@ http://stackoverflow.com/questions/1251713/backup-of-github-repo
 To create the mirror:
 $ git clone --mirror git://github.com/user/project.git
 To update:
-$cd project.git
-$git remote update
+$ cd project.git
+$ git remote update
 ```
 
 ###download files from GitHub
