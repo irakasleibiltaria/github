@@ -41,6 +41,11 @@ you can download and execute:
 ```bash
 $ curl https://gist.github.com/irakasleibiltaria/5875179/raw/9156a226d26971a239d2d6d66c9cc0e80d0ed6ee/grub-recovery.sh | sh
 ```
+or
+```bash
+$ wget https://raw.github.com/gist/5923323 -O app.py
+$ wget https://raw.github.com/irakasleibiltaria/github/master/README.md
+```
 
 Other option: https://rawgithub.com/
 
