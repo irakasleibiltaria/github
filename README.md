@@ -32,13 +32,11 @@ go to the file you want to dowload and push the **view raw button** <> and copy 
 it.
 ```bash
 $ curl https://raw.github.com/irakasleibiltaria/startup-engineering/master/README.md
-```
-from gists:
-```bash
+
+$ curl https://raw.github.com/gist/5923323 | python
+
 $ curl https://gist.github.com/irakasleibiltaria/5875179/raw/9156a226d26971a239d2d6d66c9cc0e80d0ed6ee/grub-recovery.sh
-```
-you can download and execute:
-```bash
+
 $ curl https://gist.github.com/irakasleibiltaria/5875179/raw/9156a226d26971a239d2d6d66c9cc0e80d0ed6ee/grub-recovery.sh | sh
 ```
 or
@@ -56,6 +54,9 @@ http://developer.github.com/v3/
 # GET /users/:user/repos
 
 $ curl -i https://api.github.com/users/irakasleibiltaria/repos
+
+# gists
+# GET /users/:user/gists
 ```
 The response is a Json file. To obtain only repositories names:
 
