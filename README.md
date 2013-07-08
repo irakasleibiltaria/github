@@ -62,3 +62,6 @@ The response is a Json file. To obtain only repositories names:
 
 [github-repos.js](https://gist.github.com/irakasleibiltaria/5922660)
 
+###Add ssh-key to github
+https://help.github.com/articles/generating-ssh-keys
+
