@@ -64,3 +64,13 @@ The response is a Json file. To obtain only repositories names:
 ###Add ssh-key to github
 https://help.github.com/articles/generating-ssh-keys
 TODO
+
+###git comands
+```bash
+# see status
+$ git status
+# discard changes
+$ git checkout -- filename
+## or for all files
+$ git checkout -- .
+```
