@@ -32,12 +32,11 @@ go to the file you want to dowload and push the **view raw button** <> and copy 
 it.
 ```bash
 $ curl https://raw.github.com/irakasleibiltaria/startup-engineering/master/README.md
-
 $ curl https://raw.github.com/gist/5923323 | python
-
 $ curl https://gist.github.com/irakasleibiltaria/5875179/raw/9156a226d26971a239d2d6d66c9cc0e80d0ed6ee/grub-recovery.sh
-
 $ curl https://gist.github.com/irakasleibiltaria/5875179/raw/9156a226d26971a239d2d6d66c9cc0e80d0ed6ee/grub-recovery.sh | sh
+$ curl -O https://gist.github.com/irakasleibiltaria/../raw/.../filename
+
 ```
 or
 ```bash
